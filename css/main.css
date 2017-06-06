@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html, body{
+	position: fixed;
+	top: 0;
+	left:0;
+	overflow-y:hidden;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(-0deg,  #212121, #311B92);
+	-webkit-overflow-scrolling:touch;
+	
+}
+
+.welcome{
+	top:0;
+	left:0;
+	position: absolute;;
+	height: 100%;
+	width: auto;
+}
+
+.scrollingbox{
+	
+	position: absolute;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	height: 100%;
+	width: 100%;
+	
+}
+
+.moving{
+	display: inline-flex;
+	float: left;
+	position: relative;
+	width:  450%;
+	height: 100%;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+	
+	
+.scrollelement_wide{
+	display: inline;
+	position: relative;
+	height: 100%;
+	width: 15%;
+	
+	padding-top: 1%;
+	padding-left: 2%;
+}
+
+.scrollelement_notitel{
+	
+	display: inline;
+	position: relative;
+	height: 100%;
+	width: 15%;
+	margin-top: 2.37%;
+	padding-top:1%;
+	padding-left: 1%;
+}
+
+
+
+.scrollelement_short{
+	display: inline;
+	position: relative;
+	height: 100%;
+	width: 5%;
+	
+}
+.aboutme{
+	padding-top:3%;
+	width: 100%;
+}
+
+.arrowstart{
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	position: relative;
+	width: 50%;
+	
+}
+
+.titel{
+	padding-bottom: 6%;
+}
+
+
+
+.category{
+	padding-top: 3%;
+	padding-bottom: 1%;
+	height: 20%;
+}
+
+.section{
+	
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	position: relative;
+	width: 1px;
+	height: 90%;
+}
+	
+
+@font-face {
+    font-family: ZELDA;
+    src: url(../transfonter/ZELDA.woff);
+}
+
+
+h1{
+	font-family: ZELDA;
+	color: #FAFAFA;
+	font-size: 300%;
+	
+	
+}
+
+h2{
+	
+	font-family: ZELDA, 'Lato', sans-serif;
+	color: #FAFAFA;
+	font-size: 110%;
+	
+	
+}
+
+p{
+
+	font-family: 'Lato', sans-serif;
+	font-size: 130%;
+	color: #ECE8E8;
+}
+
+a{
+	text-decoration: none;
+}

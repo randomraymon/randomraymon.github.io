@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body{
+	position: fixed;
+	top: 0;
+	left:0;
+	overflow-y:hidden;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(-0deg,  #212121, #311B92);
+	-webkit-overflow-scrolling:touch;
+	
+}
+
+
+@font-face {
+    font-family: ZELDA;
+    src: url(../transfonter/ZELDA.woff);
+}
+
+h1{
+	font-family: ZELDA, 'Lato', sans-serif;
+	color: #FAFAFA;
+	font-size: 300%;
+	
+	
+}
+
+h2{
+	
+	font-family: ZELDA, 'Lato', sans-serif;
+	color: black;
+	font-size: 150%;
+	
+}
+
+p{
+
+	font-family: 'Lato', sans-serif;
+	font-size: 130%;
+	color: #ECE8E8;
+}
+
+a{
+	
+	text-decoration: none;
+}
+
+
+
+.descriptionp{
+	font-style: italic;
+	margin-top: 5px;
+	font-weight: lighter;
+	font-size: 90%;
+	color: #3D3C3C;
+}
+
+
+.header{
+	z-index: 1;
+	position: fixed;
+	display: inline-block;
+	padding-top: 6%;
+	padding-left: 5%;
+	width: 100%;
+	height: 15%;
+	
+	
+}
+
+.arrowstart{
+	display: inline-block;
+	width: 5%;
+}
+
+.titel{
+	
+	margin-left: 5%;
+	display: inline-block;
+}
+
+
+
+.scrollingbox{
+	padding-top: 15%;
+	position: absolute;
+	overflow-x:auto;
+	overflow-y: hidden;
+	width: 100%;
+	height: 85%;
+	
+}
+
+.moving{
+	
+	display: inline-block;
+	float: left;
+	position: relative;
+	height: 100;
+	width: 350%;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.scrollelement_wide{
+	float: left;
+	z-index: 0;
+	margin-left: 150px;
+	display: inline-block;
+	position: relative;
+	height: 25%;
+	width: 490px;;
+	
+}
+
+.row{
+	margin-top: 5%;
+	float: left;
+	display: inline-flex;
+	background-color: white;
+}
+
+.category{
+	width: 50%;
+	height: 50%;
+}
+
+.container{
+	position: absolute;
+	z-index: 1;
+	float: left;
+	margin-left: 50%;
+	
+}
+
+.text{
+	width: 250px;
+	margin: 3%;
+	
+}
